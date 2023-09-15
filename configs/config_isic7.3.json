@@ -1,0 +1,13 @@
+{
+    "model": "Resnet50Classifier",
+    "datasetmultiple": "multiple3",
+    "pretrained_extractor": "torch_model_checkpoints/2023_05_01_20_13_41/testnet_epoch37.pt",
+    "batch_size": 16,
+    "num_experts": 1,
+    "epochs": 50,
+    "loss": {
+        "type": "focal_loss",
+        "weighted": false
+    },
+    "lr": 0.001
+}

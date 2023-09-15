@@ -1,0 +1,12 @@
+{
+    "model": "Resnet50Classifier",
+    "datasetmultiple": "multiple5",
+    "batch_size": 16,
+    "num_experts": 1,
+    "epochs": 50,
+    "loss": {
+        "type": "CELoss",
+        "weighted": false
+    },
+    "lr": 0.001
+}

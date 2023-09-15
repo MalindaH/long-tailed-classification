@@ -1,0 +1,12 @@
+{
+    "model": "Resnet50Classifier3",
+    "separate_dataloaders": false,
+    "batch_size": 16,
+    "num_experts": 4,
+    "epochs": 100,
+    "loss": {
+        "type": "CELoss",
+        "weighted": true
+    },
+    "lr": 0.001
+}

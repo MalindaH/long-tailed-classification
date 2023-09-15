@@ -1,0 +1,6 @@
+torch_model_checkpoints/*
+__pycache__/*
+slurm-*
+train.sh
+train0.sh
+train1.sh

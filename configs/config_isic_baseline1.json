@@ -1,0 +1,10 @@
+{
+    "batch_size": 16,
+    "num_experts": 1,
+    "epochs": 50,
+    "loss": {
+        "type": "CELoss",
+        "weighted": true
+    },
+    "lr": 0.001
+}
